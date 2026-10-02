@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { useStore } from './store';
 import { TEXT_TYPES } from './registry';
 import { TopBar } from './components/TopBar';
@@ -91,6 +92,7 @@ export default function App() {
       {screen === 'home' ? <Home /> : <Editor />}
       <ConfirmDialog />
       <Toast />
+      <Analytics />
     </>
   );
 }
