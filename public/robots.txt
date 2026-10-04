@@ -1,0 +1,3 @@
+     User-agent: *
+     Allow: /
+     Sitemap: https://section-forge.vercel.app/sitemap.xml
